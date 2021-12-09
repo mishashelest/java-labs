@@ -14,17 +14,24 @@ public class Sportsman implements Serializable
     protected String firstname;
     protected String lastname;
 
-    public float getAge()
+    public  Sportsman()
+    {
+
+    }
+
+
+
+    public int getAge()
     {
         return age;
     }
 
-    public float getHeight()
+    public int getHeight()
     {
         return height;
     }
 
-    public float getWeight()
+    public int getWeight()
     {
         return weight;
     }

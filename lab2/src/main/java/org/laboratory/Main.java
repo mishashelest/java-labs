@@ -57,11 +57,13 @@ public class Main
 
         try
         {
+
             MaxTxt = srzTxt.deserializer(fTxt);
             VovaJson = srzJson.deserializer(fJson);
             VadimXml = srzXml.deserializer(fXml);
         } catch (Exception e)
         {
+
             System.out.println(e.getMessage());
         }
 

@@ -1,1 +1,1 @@
-Firstname = Vova, Lastname = Mukutyk, Height = 180.0, Weight = 70.0, Age = 20.0,Sport = basketball,Qualification = first degree
+Firstname = Vova,Lastname = Mukutyk,Height = 180,Weight = 70,Age = 20,Sport = basketball,Qualification = first degree

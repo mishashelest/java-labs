@@ -17,6 +17,7 @@ public class SerializeJSON
     {
         try
         {
+
             mapper.writeValue(file, obj);
         }
         catch (IOException e)
@@ -27,12 +28,15 @@ public class SerializeJSON
 
     public Sportsman deserializer(File file)
     {
+
         try
         {
+
             return mapper.readValue(file, Sportsman.class);
         }
         catch (IOException e)
         {
+
             throw new RuntimeException(e.getMessage());
         }
     }
